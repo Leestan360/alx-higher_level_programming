@@ -1,3 +1,1 @@
-###High level progamming language
-##Python
-#Day 1
+High level programming language - Python

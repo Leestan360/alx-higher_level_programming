@@ -3,7 +3,4 @@ for a in range(0, 100):
     if a == 99:
         print(a)
     else:
-        if len(str(a)) == 1:
-            print('{}{}'.format(0, a), end=", ")
-        else:
-            print('{}'.format(a), end=", ")
+        print('{:0>2d}'.format(a), end=", ")

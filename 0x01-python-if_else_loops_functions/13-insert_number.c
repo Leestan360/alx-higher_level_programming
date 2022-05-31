@@ -13,7 +13,7 @@
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *current = *head;
-	istint_t *a = NULL;
+	listint_t *a = NULL;
 	listint_t *temp = NULL;
 
 	if (!head)

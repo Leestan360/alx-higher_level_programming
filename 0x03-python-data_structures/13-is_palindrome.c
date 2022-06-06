@@ -58,7 +58,7 @@ int is_palindrome(listint_t **head)
 
 	while (dup && temp)
 	{
-		if (temp-> == dup->next)
+		if (temp->n == dup->n)
 		{
 			dup = dup->next;
 			temp = temp->next;

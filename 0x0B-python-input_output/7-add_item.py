@@ -12,7 +12,8 @@ if __name__ == "__main__":
 
     try:
         list = load_from_json_file(filename)
-    except list = []
+    except:
+        list = []
 
     list.extend(argv[1:])
     save_to_json_file(list, "add_item.json")

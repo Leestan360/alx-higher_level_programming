@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # square.py
-# jackson muendo <jackmwexh1225@gmail.com>
+# stanley mayore <stanleymayore2@gmail.com>
 """Defines a square class."""
 from models.rectangle import Rectangle
 
